@@ -1,84 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Simple Landing Page</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 500px;
-      padding: 40px;
-      background-color: rgba(0, 0, 0, 0.3);
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 30px;
-    }
-
-    button {
-      padding: 12px 25px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 30px;
-      background-color: #fff;
-      color: #2575fc;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #e0e0e0;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Website Acquisition | Contact Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;  /* Professional blue */
+            --primary-dark: #1d4ed8;
+            --accent: #f43f5e;   /* Vibrant accent */
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.6;
+        }
+        
+        .card {
+            max-width: 640px;
+            width: 90%;
+            background: white;
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            border-top: 6px solid var(--accent);
+        }
+        
+        h1 {
+            color: var(--dark);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+        }
+        
+        .contact-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(37, 99, 235, 0.3);
+        }
+        
+        .telegram-icon {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        @media (max-width: 640px) {
+            .card {
+                padding: 2rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>Welcome to My Landing Page</h1>
-    <p>Your journey to something amazing starts here. Click below to begin!</p>
-    <button onclick="handleClick()">Get Started</button>
-  </div>
-
-  <script>
-    function handleClick() {
-      alert('Thanks for getting started! We’ll be in touch soon.');
-    }
-  </script>
-
+    <div class="card">
+        <h1>This Website is for sale <span class="highlight">Available</span></h1>
+        <p>Incase you have any question contact developer, Serious inquiries only.</p>
+        <p>Includes full source code and documentation.</p>
+        <a href="https://t.me/developedByBlackDev" class="contact-btn">
+            <svg class="telegram-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.64 6.8l-1.87 7.19c-.14.44-.41.58-.68.58-.47 0-.74-.27-1.14-.52l-1.64-1.1-1.04-1.01c-.1-.1-.2-.2-.3-.3l3.27-3.1c.3-.3.6-.3.9 0 .3.3.3.6 0 .9l-2.3 2.1 1.5 1.5c.3.3.6.3.9 0 .3-.3.3-.6 0-.9l-1.5-1.5 2.3-2.1c.3-.3.6-.3.9 0 .3.3.3.6 0 .9z"/>
+            </svg>
+            Contact on Telegram
+        </a>
+        <div class="footer">
+            <p>© 2025 | All Rights Reserved</p>
+        </div>
+    </div>
 </body>
 </html>
